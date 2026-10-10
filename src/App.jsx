@@ -69,7 +69,7 @@ function App() {
               {currentPage === 'reports' && <Reports />}
               {currentPage === 'insights' && <Insights />}
               {currentPage === 'all-users' && <AllUsers />}
-              {currentPage === 'roles' && <RolePermission />}
+               {currentPage === 'permission' && <RolePermission />}
               {currentPage === 'activity' && <Activity />}
               {currentPage === 'orders' && <Orders />}
               {currentPage ===  'product' && <Product />}
@@ -88,3 +88,4 @@ function App() {
 }
 
 export default App
+  
